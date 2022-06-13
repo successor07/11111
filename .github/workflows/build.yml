@@ -5,7 +5,7 @@ on:
       - main # 这里表示push到main分支就会触发流程
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-18.04
+    runs-on: CentOS 7.8
     steps:
       # 这是github官方的一个action，用于clone该仓库的源码到工作流中，
       - name: Checkout 🛎
